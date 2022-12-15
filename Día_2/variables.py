@@ -33,27 +33,27 @@ print(check_len_first_and_last_name)
 
 num_one = 5
 num_two =4
-print(sum(num_one + num_two))
-cuenta1 = (sum(num_one + num_two))
-print(num_one - num_two)
+cuenta1 = ((num_one + num_two))
+print('Suma numeros', cuenta1)
 cuenta2= (num_one - num_two)
-print(num_one * num_two)
+print('Resta numeros', cuenta2)
 cuenta3=(num_one * num_two)
-print(num_one / num_two)
+print('Multiplicacion numeros', cuenta3)
 cuenta4=(num_one / num_two)
-print(num_two % num_one)
+print('Division numeros',cuenta4)
 cuenta5=(num_two % num_one)
-print(num_one ** num_two)
+print('Modulus numeros', cuenta5)
 cuenta6=(num_one ** num_two)
-print(num_one // num_two)
+print('Elevacion de numeros', cuenta6)
 cuenta7=(num_one // num_two)
+print('Floor division de numeros', cuenta7)
 
 radio=30
 area_of_circle=(radio*3.14159)
 print(area_of_circle)
 circumference_of_circle=(2*3,14159*radio)
 print(circumference_of_circle)
-radio2=input('Add radio of circle')
+radio2=int(input('Add radio of circle'))
 print(radio2)
-area_of_circle2=3.14159*radio2**2
-print(area_of_circle2)
+area_of_circle2= 3.14159 * radio2**2
+print('Area del circulo:',area_of_circle2)
