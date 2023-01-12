@@ -49,8 +49,7 @@ y2=10 in punto2
 m=(y2-y1)/(x2-x1)
 print(f"La m es:{m}")
 euclideandist=(x2-x1)**2+(y2-y1)**2
-print(f"La distancia euclidiana es de:{euclideandist})
-
+print(f"La distancia euclidiana es de:"{euclideandist})
 print(m_de_function1==m)
 
 test_numbers=(2,3,-3,5,6)
@@ -68,3 +67,22 @@ print("jargon"in"I hope this course is not full of jargon")
 
 print("on" not in "dragon")
 print("on"not in "python")
+
+longitudpy=len("python")
+print(longitudpy)
+print(float(longitudpy))
+print(str(longitudpy))
+
+num=(int("number:"))
+print(num)
+if num%2 == 0
+    print("Número par")
+else:
+    print("Número impar")
+
+
+print(7//3==int(2.7))
+
+print(type("10") == type(10))
+
+print(int(9.8)==10)
