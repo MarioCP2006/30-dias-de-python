@@ -1,0 +1,7 @@
+vacio=()
+hermanos=("David" + " " + "Godofredo" + " " + "Asabaneh" + " " + "Karim")
+hermanas=("Marta" + " " + "Angustias" + " " + "Fiona" + " " + "Ambrosia")
+siblings=(hermanos + " " + hermanas)
+print(hermanos)
+print(hermanas)
+print(siblings)
