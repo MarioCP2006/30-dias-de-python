@@ -71,9 +71,24 @@ def sum_of_numbers(numberr):
         joselu=joselu+n
     return joselu
 
-#Faltan ej 1 y 2 de ejercicios 3
-        
+def  is_prime(numerito):
+    numeros_primos=[2,3,5,7,13]
+    for n in numeros_primos:
+        if numerito%n==0 and numerito not in numeros_primos:
+            return "Su número es primo"
+        else:
+            return "Su número no es primo"
 
+def check_items(lista):     
+    s_e_t=set(lista)   
+    if lista==s_e_t:
+        return "No se repiten items en la lista" 
+    else:
+        return "Se repiten items en la lista"
+
+items=["Uno" , "Dos", "Tres" , "Cuatro" , "Dos"]
+print(check_items(items))
+print(is_prime(169))
 print(sum_of_numbers(5))  # 15
 print(sum_of_numbers(10)) # 55
 print(sum_of_numbers(100)) # 5050
